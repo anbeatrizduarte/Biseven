@@ -1,0 +1,248 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.932);
+}
+
+main {
+    width: 100%;
+    height: 535px;
+    background-image: url(../img/background-main.jpg);
+    box-shadow: 0px 0px 20px #000000;
+}
+
+.logo img {
+
+    height: 80px;
+    width: 80px;
+    float: left;
+    padding-left: 340px;
+    filter: brightness(5);
+    color: white;
+
+}
+
+
+#main-header {
+    width: 100%;
+    height: 80px;
+    background-color: #00000091;
+    box-shadow: 0px 0px 20px #000000a4;
+
+
+}
+
+.links ul li {
+    display: inline-block;
+    font-size: 30px;
+    list-style-type: none;
+    font-family: FontHeader;
+}
+
+.links ul li a {
+    filter: brightness(5);
+    list-style: none;
+    text-decoration: none;
+    color: #536976;
+}
+
+.bl1 {
+    float: left;
+    padding-top: 25px;
+    padding-left: 100px;
+}
+
+.bl2 {
+    float: right;
+    padding-top: 25px;
+    padding-right: 100px;
+}
+
+main h1 {
+    padding-top: 220px;
+    float: left;
+    padding-left: 800px;
+    color: #292E49;
+    font-size: 27px;
+    font-family: FontSimple;
+    color: #536976;
+    filter: brightness(5);
+    text-shadow: 0px 0px 9px #000000a4;
+
+}
+
+#bttLogin {
+    
+    font-size: 30px;
+    font-family: FontHeader;
+    background-image: linear-gradient(to left, #f821f8, #9402f8);
+    border: 1px solid #9402f8;
+    border-radius: 7px;
+    width: 80px;
+    height: 40px;
+    box-shadow: 5px 3px 10px #9602f85d;
+    text-shadow: 0px 0px 9px #000000a4;
+}
+
+#bttLogin:hover {
+    transition: all 0.4s;
+    opacity: 1;
+    box-shadow: 0px 6px 10px #9602f85d;
+    transform: scale(1.09);
+}
+
+.text-mid h1 {
+
+    padding-top: 30px;
+    font-size: 70px;
+    text-align: center;
+    font-family: FontSimple;
+    color: white;
+}
+
+hr {
+    border: none;
+    height: 20px;
+    width: 30%;
+    height: 50px;
+    margin-top: 0;
+    border-bottom: 1px solid #9402f8;
+    box-shadow: 0 20px 20px -10px rgb(0, 0, 0);
+    margin: -50px auto 10px;
+}
+
+.text-mid p {
+    font-size: 25px;
+    padding-top: 120px;
+    padding-right: 150px;
+    float: right;
+    font-family: FontSimple;
+    color: #f821f8;
+    text-shadow: 0px 0px 9px #000000a4;
+}
+
+.middle {
+    padding-bottom: 150px;
+}
+
+.middle img {
+    width: 400px;
+    height: 400px;
+    padding-left: 50px;
+    float: left;
+}
+
+#bttStartNow {
+    padding-bottom: 10px;
+    font-size: 50px;
+    font-family: FontTextSmall;
+    background-image: linear-gradient(to left, #f821f8, #9402f8);
+    border: 1px solid #9402f8;
+    border-radius: 7px;
+    width: 170px;
+    height: 70px;
+    box-shadow: 5px 3px 10px #9602f85d;
+    text-shadow: 0px 0px 9px #000000a4;
+    color: white;
+    margin-left: 450px;
+    margin-top: 50px;
+}
+
+#bttStartNow:hover {
+    transition: all 0.4s;
+    opacity: 0.7;
+    box-shadow: 0px 6px 10px #9602f85d;
+    transform: scale(1.01);
+}
+
+#carrosel-catego {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.div-card {
+    width: 90%;
+    height: 500px;
+    background-image: linear-gradient(to left, #f821f8, #9402f8);
+    border-radius: 50px;
+    box-shadow: 10px 20px 20px #000000a4;
+    transition: all 0.2s;
+    opacity: 0.7;
+}
+
+.cards {
+    padding-top: 50px;
+
+}
+
+.card {
+    margin: 20px;
+    padding: 20px;
+    width: 250px;
+    min-height: 150px;
+    display: grid;
+    grid-template-rows: 20px 50px 1fr 50px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+    transition: all 0.2s;
+    display: inline-block;
+    margin-left: 6%;
+
+}
+
+.card:hover {
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+    transform: scale(1.01);
+}
+
+.seta {
+    text-align: center;
+}
+
+.seta img {
+    width: 300px;
+    height: 300px;
+    margin-bottom: -40px;
+    text-align: center;
+}
+
+.div-card h1 {
+    padding-top: 30px;
+    font-size: 70px;
+    text-align: center;
+    font-family: FontSimple;
+    color: rgba(0, 0, 0, 0.932);
+}
+
+#card1 {
+    background-image: url(../img/beach-card.png);
+
+}
+
+#card2 {
+    background-image: url(../img/forest-card.png);
+
+}
+
+#card3 {
+    background-image: linear-gradient(to right, #1d0130, rgba(0, 0, 0, 0.932), rgb(12, 12, 12));
+    
+}
+
+.cards h1 {
+    text-align: center;
+    font-family: FontSimple;
+    color: white;
+    filter: brightness(5);
+    text-shadow: 0px 0px 15px #000000a4;
+}
+
+.cards a {
+
+    text-decoration: none;
+}

@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.932);
+    background-repeat: no-repeat;
+}
+
+#div-login {
+    padding-top: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-login {
+    width: 80%;
+    height: 550px;
+    background-image: linear-gradient(to left, #f821f8, #9402f8);
+    border-radius: 50px;
+    box-shadow: 10px 20px 20px #000000a4;
+    transition: all 0.2s;
+    opacity: 0.7;
+}
+
+.card-header h1 {
+    padding-top: 30px;
+    font-size: 70px;
+    text-align: center;
+    font-family: FontSimple;
+    color: rgb(255, 255, 255);
+    filter: brightness(5);
+}
+
+.text-center {
+    color: linear-gradient(to left, #000000, rgba(0, 0, 0, 0.904));
+    text-transform: uppercase;
+    font-size: 90px;
+    margin: -50px 0 80px 0;
+    display: block;
+    text-align: center;
+    font-family: FontSimple;
+
+}
+
+.box {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 3px;
+    padding: 70px 100px;
+}
+
+.input-container {
+    position: relative;
+    margin-bottom: 25px;
+    float: left;
+    margin: 20px;
+}
+
+.input-container label {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 18px;
+    float: left;
+    color: white;
+    transition: all 0.5s ease-in-out;
+    font-family: FontSimple;
+
+}
+
+
+.input-container input {
+    border: 0;
+    border-bottom: 2px solid #ffffff;
+    background: transparent;
+    width: 100%;
+    padding: 8px 0 5px 0;
+    font-size: 16px;
+    color: #fff;
+
+}
+
+#iptPass {
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: right;
+
+}
+
+.input-container input:focus {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #000000;
+}
+
+.btn {
+    color: #fff;
+    background-image: linear-gradient(to left, #000000, rgba(0, 0, 0, 0.904));
+    outline: none;
+    border: 0;
+    color: #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    margin-top: 50px;
+    border-radius: 2px;
+    cursor: pointer;
+    position: relative;
+}
+
+.btn:after {
+    content: "";
+    position: absolute;
+    background: rgba(0, 0, 0, 0.50);
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.input-container input:focus~label,
+.input-container input:valid~label {
+    top: -12px;
+    font-size: 12px;
+
+}
+
+form h4 {
+    padding-top: 50px;
+    font-family: FontSimple;
+
+}
+
+form h4 a {
+    color: rgb(190, 189, 189);
+}
+
+
+.olho {
+    cursor: pointer;
+    left: 150px;
+    position: absolute;
+    width: 21px;
+    top: 2px;
+}
+
+#info {
+    left: 180px;
+    width: 15px;
+    top: 5px;
+}
